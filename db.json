@@ -1,14 +1,16 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+	{
+	"title": "Title",
+	"category": "Category ex",
+	"desc": "Sample desc",
+	"code": "beep bop boop",
+	"url": "https://stickeroid.com/uploads/pic/full-viber/fc694db3849afb709f788905eaf265205e6bc735.png"
+	},	
+	{
+	"title": "Title",
+	"category": "Category ex",
+	"desc": "Sample desc",
+	"code": "beep bop boop",
+	"url": "https://stickeroid.com/uploads/pic/full-viber/fc694db3849afb709f788905eaf265205e6bc735.png"
+	}
+]
