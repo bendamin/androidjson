@@ -2,7 +2,7 @@
 	{
 	"title": "TextView",
 	"category": "Views",
-	"desc": "A TextView is used to display text to the user via the activity\'s UI. It has a getText and setText function for easy assignment of Strings or the text can be set in the text field of the XML.",
+	"desc": "",
 	"code": "",
 	"url": "https://raw.githubusercontent.com/google/material-design-icons/master/content/2x_web/ic_font_download_black_48dp.png"
 	},	
