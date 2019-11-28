@@ -2,8 +2,8 @@
 	{
 	"title": "TextView",
 	"category": "Views",
-	"desc": "",
-	"code": "",
+	"desc": "Sample desc",
+	"code": "beep bop boop",
 	"url": "https://raw.githubusercontent.com/google/material-design-icons/master/content/2x_web/ic_font_download_black_48dp.png"
 	},	
 	{
@@ -11,6 +11,48 @@
 	"category": "Category ex",
 	"desc": "Sample desc",
 	"code": "beep bop boop",
+	"url": "https://stickeroid.com/uploads/pic/full-viber/fc694db3849afb709f788905eaf265205e6bc735.png"
+	},
+	{
+	"title": "Title",
+	"category": "Category ex",
+	"desc": "Sample desc",
+	"code": "beep bop boop",
+	"url": "https://stickeroid.com/uploads/pic/full-viber/fc694db3849afb709f788905eaf265205e6bc735.png"
+	},
+	{
+	"title": "Title",
+	"category": "Category ex",
+	"desc": "Sample desc",
+	"code": "beep bop boop",
+	"url": "https://stickeroid.com/uploads/pic/full-viber/fc694db3849afb709f788905eaf265205e6bc735.png"
+	},
+	{
+	"title": "Title",
+	"category": "Category ex",
+	"desc": "Sample desc",
+	"code": "beep bop boop",
+	"url": "https://stickeroid.com/uploads/pic/full-viber/fc694db3849afb709f788905eaf265205e6bc735.png"
+	},
+	{
+	"title": "Title",
+	"category": "Category ex",
+	"desc": "Sample desc",
+	"code": "beep bop boop",
+	"url": "https://stickeroid.com/uploads/pic/full-viber/fc694db3849afb709f788905eaf265205e6bc735.png"
+	},
+	{
+	"title": "Title",
+	"category": "Category ex",
+	"desc": "Sample desc",
+	"code": "beep bop boop",
+	"url": "https://stickeroid.com/uploads/pic/full-viber/fc694db3849afb709f788905eaf265205e6bc735.png"
+	},
+	{
+	"title": "Sample Title Here",
+	"category": "Category Name Here",
+	"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in lorem id risus iaculis tristique. Praesent non fringilla dolor. Praesent eget dolor ultricies, dictum sem eget, consequat magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam ullamcorper quam ac blandit posuere. Praesent ut mattis augue. Suspendisse sodales nulla vel nisi porta aliquet. Aenean ut dolor nulla. Curabitur finibus dapibus velit sed lacinia. Nam vitae sem a justo tempus volutpat. Sed nulla eros, scelerisque nec semper in, dictum tristique turpis. Donec fermentum quis odio vitae fermentum. Aenean non ornare eros. Sed posuere sagittis dui, id interdum ipsum. Suspendisse lobortis, augue in fringilla pretium, lacus ex viverra libero, quis hendrerit orci enim vitae velit.\nDonec aliquam, enim a blandit sodales, nulla sem imperdiet lorem, ac vulputate risus lacus eu metus. Donec id odio tortor. Sed vulputate lacinia augue, nec tristique mauris lacinia nec. Donec lacus est, elementum eu lectus ut, pellentesque tempor sem. Ut felis lacus, posuere id mollis tristique, ornare ac orci. Mauris euismod ligula nec ultrices pulvinar. Proin non placerat risus, eget eleifend tellus. Nullam gravida feugiat sem, in cursus urna pulvinar pulvinar. Aliquam blandit scelerisque dui, varius semper nisi pretium id. Sed consectetur finibus mollis. Nunc sit amet interdum diam. Praesent eu magna vitae eros ullamcorper egestas at vel leo. Quisque ornare arcu et ipsum vestibulum commodo.\nMaecenas id feugiat lectus. Donec sit amet sapien molestie, egestas libero eu, mattis sapien. Proin vestibulum convallis dolor a cursus. Nullam commodo dapibus neque, non hendrerit lectus rhoncus id. Aliquam id sollicitudin arcu. Suspendisse dapibus eget nibh id elementum. Cras aliquet bibendum malesuada. Vestibulum semper placerat interdum. Duis in orci at velit faucibus maximus. Phasellus eu mauris ornare, consequat diam nec, tempus turpis. Donec nec auctor diam.\nNam convallis diam ut eleifend bibendum. Maecenas a convallis nunc. Proin feugiat lacus nec purus fringilla viverra. Fusce non vulputate neque. Maecenas vel ultrices nunc, non pulvinar tortor. Vivamus lacinia ligula id ex dapibus, vel accumsan libero sodales. Nam lacinia sit amet arcu id convallis. Aliquam erat volutpat. Nunc nec nunc suscipit, pulvinar risus eu, aliquet orci. Duis nec mauris nisl. Donec at vehicula ante. Nulla dapibus porttitor sem, sed placerat mauris hendrerit nec. Fusce sagittis nec tellus eu placerat. Vivamus sodales eget nisl vel scelerisque. Quisque aliquet eleifend lorem.\nNunc sed commodo urna, id cursus sem. Fusce nec diam rhoncus, pharetra enim nec, vestibulum lacus. Phasellus quis finibus tortor. Maecenas iaculis est ac purus efficitur, sed sollicitudin metus pulvinar. Proin nec iaculis purus. Pellentesque non elit nisl. Integer id eleifend risus. Duis commodo aliquam iaculis. Maecenas ac odio et nulla malesuada lobortis. Quisque ligula nisl, dictum vitae nulla in, tempor vestibulum felis. Aenean suscipit tortor at sapien egestas congue. Suspendisse mattis, arcu at dictum cursus, dui erat rhoncus lacus, sed luctus mi ligula ut nibh. Donec mattis a tellus in hendrerit. Suspendisse vestibulum urna in neque sodales finibus. Etiam et odio tempus, ultricies justo in, ultrices nibh. Maecenas molestie odio vitae mi bibendum, et auctor libero egestas.",
+	"code": "<TextView>\nparameters in here\n</TextView>",
 	"url": "https://stickeroid.com/uploads/pic/full-viber/fc694db3849afb709f788905eaf265205e6bc735.png"
 	}
 ]
