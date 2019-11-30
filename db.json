@@ -24,10 +24,10 @@
 	"code": "SharedPreferences.Editor editor = getSharedPreferences(\"prefs\",0).edit();\neditor.putString(\"example\", variableName);\neditor.apply();"
 	},
 	{
-	"title": "Title",
-	"category": "Category ex",
-	"desc": "Sample desc",
-	"code": "beep bop boop"
+	"title": "GestureDectector",
+	"category": "API",
+	"desc": "\'Detects various gestures and events using the supplied MotionEvents. The OnGestureListener callback will notify users when a particular motion event has occurred. This class should only be used with MotionEvents reported via touch (don\'t use for trackball events). To use this class:\n\nCreate an instance of the GestureDetector for your View\n\nIn the View#onTouchEvent(MotionEvent) method ensure you call onTouchEvent(android.view.MotionEvent). The methods defined in your callback will be executed when the events occur.\n\nIf listening for OnContextClickListener#onContextClick(MotionEvent) you must call onGenericMotionEvent(android.view.MotionEvent) in View#onGenericMotionEvent(MotionEvent).\' - Google",
+	"code": "public class GestureListener extends GestureDectector.SimpleOnGestureListener{\n	@Override\n	public boolean onDoubleTap(MotionEvent e){\n\\\code in here\n}\n}"
 	},
 	{
 	"title": "Title",
