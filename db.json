@@ -14,14 +14,14 @@
 	{
 	"title": "ListView",
 	"category": "View",
-	"desc": "Displays a vertically-scrollable collection of views, where each view is positioned immediatelybelow the previous view in the list. For a more modern, flexible, and performant approach to displaying lists, use RecyclerView.\nTo display a list, you can include a list view in your layout XML file.\n\nA list view is an adapter view that does not know the details, such as type and contents, of the views it contains. Instead list view requests views on demand from a ListAdapter as needed, such as to display new views as the user scrolls up or down\n\nIn order to display items in the list, call setAdapter(android.widget.ListAdapter) to associate an adapter with the list. For a simple example, see the discussion of filling an adapter view with text in the Layouts guide.\n\nTo display a more custom view for each item in your dataset, implement a ListAdapter. For example, extend BaseAdapter and create and configure the view for each data item in getView(...)",
+	"desc": "\'Displays a vertically-scrollable collection of views, where each view is positioned immediatelybelow the previous view in the list. For a more modern, flexible, and performant approach to displaying lists, use RecyclerView.\n\nTo display a list, you can include a list view in your layout XML file.\n\nA list view is an adapter view that does not know the details, such as type and contents, of the views it contains. Instead list view requests views on demand from a ListAdapter as needed, such as to display new views as the user scrolls up or down\n\nIn order to display items in the list, call setAdapter(android.widget.ListAdapter) to associate an adapter with the list. For a simple example, see the discussion of filling an adapter view with text in the Layouts guide.\n\nTo display a more custom view for each item in your dataset, implement a ListAdapter. For example, extend BaseAdapter and create and configure the view for each data item in getView(...)\' - Google",
 	"code": "<ListView\n	android:id=\"@+id/list_view\"\n	android:layout_height=\"match_parent\"\n	android:layout_width=\"match_parent\"/> "
 	},
 	{
-	"title": "Title",
-	"category": "Category ex",
-	"desc": "Sample desc",
-	"code": "beep bop boop"
+	"title": "SharedPreferences",
+	"category": "API",
+	"desc": "\'Interface for accessing and modifying preference data returned by Context#getSharedPreferences. For any particular set of preferences, there is a single instance of this class that all clients share. Modifications to the preferences must go through an Editor object to ensure the preference values remain in a consistent state and control when they are committed to storage. Objects that are returned from the various get methods must be treated as immutable by the application.\n\nNote: This class provides strong consistency guarantees. It is using expensive operations which might slow down an app. Frequently changing properties or properties where loss can be tolerated should use other mechanisms. For more details read the comments on Editor#commit() and Editor#apply().\' - Google",
+	"code": "SharedPreferences.Editor editor = getSharedPreferences(\"prefs\",0).edit();\neditor.putString(\"example\", variableName);\neditor.apply();"
 	},
 	{
 	"title": "Title",
