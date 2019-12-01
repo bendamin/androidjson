@@ -34,5 +34,11 @@
 	"category": "API",
 	"desc": "\'Detects various gestures and events using the supplied MotionEvents. The OnGestureListener callback will notify users when a particular motion event has occurred. This class should only be used with MotionEvents reported via touch (don\'t use for trackball events). To use this class:\n\nCreate an instance of the GestureDetector for your View\n\nIn the View#onTouchEvent(MotionEvent) method ensure you call onTouchEvent(android.view.MotionEvent). The methods defined in your callback will be executed when the events occur.\n\nIf listening for OnContextClickListener#onContextClick(MotionEvent) you must call onGenericMotionEvent(android.view.MotionEvent) in View#onGenericMotionEvent(MotionEvent).\' - Android Devlopers",
 	"code": "public class GestureListener extends GestureDectector.SimpleOnGestureListener{\n	@Override\n	public boolean onDoubleTap(MotionEvent e){\n\\\\\\code in here\n}\n}"
+	},
+	{
+	"title": "Location Manager",
+	"category": "API",
+	"desc": "\'This class provides access to the system location services. These services allow applications to obtain periodic updates of the device\'s geographical location, or to fire an application-specified Intent when the device enters the proximity of a given geographical location.\n\nUnless noted, all Location API methods require the android.Manifest.permission#ACCESS_COARSE_LOCATION or android.Manifest.permission#ACCESS_FINE_LOCATION permissions. If your application only has the coarse permission then it will not have access to the GPS or passive location providers. Other providers will still return location results, but the update rate will be throttled and the exact location will be obfuscated to a coarse level of accuracy.\n\nRequires the PackageManager#FEATURE_LOCATION feature which can be detected using PackageManager.hasSystemFeature(String).\' - Android Developers",
+	"code": "LocationManager locationManager = getSystemService(Context.LOACATION_SERVICE);\nlocationManager.requestLocationUpdates(\nLocationManager.GPS_PROVIDER,\n60000,\n5,\nthis);\n"
 	}
 ]
