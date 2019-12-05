@@ -40,5 +40,11 @@
 	"category": "API",
 	"desc": "\'This class provides access to the system location services. These services allow applications to obtain periodic updates of the device\'s geographical location, or to fire an application-specified Intent when the device enters the proximity of a given geographical location.\n\nUnless noted, all Location API methods require the android.Manifest.permission#ACCESS_COARSE_LOCATION or android.Manifest.permission#ACCESS_FINE_LOCATION permissions. If your application only has the coarse permission then it will not have access to the GPS or passive location providers. Other providers will still return location results, but the update rate will be throttled and the exact location will be obfuscated to a coarse level of accuracy.\n\nRequires the PackageManager#FEATURE_LOCATION feature which can be detected using PackageManager.hasSystemFeature(String).\' - Android Developers",
 	"code": "LocationManager locationManager = getSystemService(Context.LOACATION_SERVICE);\nlocationManager.requestLocationUpdates(\nLocationManager.GPS_PROVIDER,\n60000,\n5,\nthis);\n"
+	},
+	{
+	"title":"Wallpaper Manager",
+	"category":"API",
+	"desc":"\'Provides access to the system wallpaper. With WallpaperManager, you can get the current wallpaper, get the desired dimensions for the wallpaper, set the wallpaper, and more.\n\nAn app can check whether wallpapers are supported for the current user, by calling isWallpaperSupported(), and whether setting of wallpapers is allowed, by calling isSetWallpaperAllowed().\'- Android Developers",
+	"code":"WallpaperManager manager = WallpaperManager.getInstance(context);\n\nmanager.setBitmap(exampleBitmap)"
 	}
 ]
