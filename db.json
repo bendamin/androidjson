@@ -46,5 +46,11 @@
 	"category":"API",
 	"desc":"\'Provides access to the system wallpaper. With WallpaperManager, you can get the current wallpaper, get the desired dimensions for the wallpaper, set the wallpaper, and more.\n\nAn app can check whether wallpapers are supported for the current user, by calling isWallpaperSupported(), and whether setting of wallpapers is allowed, by calling isSetWallpaperAllowed().\'- Android Developers",
 	"code":"WallpaperManager manager = WallpaperManager.getInstance(context);\n\nmanager.setBitmap(exampleBitmap)"
+	},
+	{
+	"title":"Shortcut Manager",
+	"category":"API",
+	"desc":"\'ShortcutManager executes operations on an app's set of shortcuts, which represent specific tasks and actions that users can perform within your app. This page lists components of the ShortcutManager class that you can use to create and manage sets of shortcuts.\n\nTo learn about methods that retrieve information about a single shortcut—including identifiers, type, and status—read the ShortcutInfo reference.\' - Android Developers",
+	"code":"ShortcutManager shortcutManager = getSystemService(ShortcutManager.class);\n\nShortcutInfo shortcutSettings = new ShortcutInfo.Builder(this, \"settings\")\n                .setShortLabel(\"options\")\n                .setLongLabel(\"Show Options\")\n                .setIcon(Icon.createWithResource(this,R.drawable.ic_settings))\n                .setIntent(settings)\n                .build();\n\nshortcutManager.setDynamicShortcuts(Arrays.asList(shortcutSettings));"
 	}
 ]
