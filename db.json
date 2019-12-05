@@ -58,5 +58,18 @@
 	"category": "API",
 	"desc":"\'Android 8.0 (API level 26) allows activities to launch in picture-in-picture (PIP) mode. PIP is a special type of multi-window mode mostly used for video playback. It lets the user watch a video in a small window pinned to a corner of the screen while navigating between apps or browsing content on the main screen.\n\nPIP leverages the multi-window APIs available in Android 7.0 to provide the pinned video overlay window. To add PIP to your app, you need to register your activities that support PIP, switch your activity to PIP mode as needed, and make sure UI elements are hidden and video playback continues when the activity is in PIP mode.\n\nThe PIP window appears in the top-most layer of the screen, in a corner chosen by the system. You can drag the PIP window to another location. When you tap on the window two special controls appear: a full-screen toggle (in the center of the window) and a close button (an \"X\" in the upper right corner).\' - Android Developers",
 	"code":"@Overrid\npublic void onActionClicked(Action action) {\n    if (action.getId() == R.id.lb_control_picture_in_picture) {\n        getActivity().enterPictureInPictureMode();\n        return;\n    }\n    ...\n}"
+	},
+	{
+	"title":"Android Pie",
+	"category": "Android Version",
+	"desc":"\'Android Pie (codenamed Android P during development) is the ninth major release and the 16th version of the Android mobile operating system. It was first released as a developer preview on March 7, 2018, and released publicly on August 6, 2018.\n\nAs of October 2019, 32.69% of Android devices run Pie, making it the most popular Android version\' - Wikipedia",
+	"code":"Android Codename: Pie\nAndroid Version: 9.0\nAndroid SDK: 28"
+	},
+
+	{
+	"title":"Android Q",
+	"category": "Android Version",
+	"desc":"\'Android 10 was officially released on September 3, 2019 for supported Google Pixel devices. The third-party Essential Phone and Redmi K20 Pro also received updates in selected markets the same day. The OnePlus 7T was the first device with Android 10 pre-installed. In October 2019, it was reported that Google's certification requirements for Google Mobile Services will only allow Android 10-based builds to be approved after January 31, 2020\' - Wikipedia",
+	"code":"*Names no longer provide\nAndroid Codename: Q \nAndroid Version: 10.0\nAndroid SDK: 29"
 	}
 ]
